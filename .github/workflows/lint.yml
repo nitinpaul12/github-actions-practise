@@ -8,8 +8,8 @@ jobs:
   code:
     runs-on: ubuntu-latest
     steps:
-      -name: checkout the code
-       uses: actions/checkout@v7
+      - name: checkout the code
+        uses: actions/checkout@v7
 
-       -name: Install linter
+      - name: Install linter
         run: pip install ruff
